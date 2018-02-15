@@ -14,7 +14,42 @@
       rel="stylesheet">         
 </head>
 <body>
-        <audio loop autoplay>
+        
+     <!-- carousel slider -->
+    <div class="slider">
+        <ul class="slides">
+          <li>
+            <img src="./assets/images/sushi.jpeg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3>We've eaten everything!</h3>
+              <h5 class="light grey-text text-lighten-3">So you don't have to, unless you want to.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/biscuit.jpeg"> <!-- random image -->
+            <div class="caption left-align">
+              <h3>No, literaly...Everything!</h3>
+              <h5 class="light grey-text text-lighten-3">We have the pounds to prove it!</h5>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/pancakes.jpeg"> <!-- random image -->
+            <div class="caption right-align">
+              <h3>Trust us.</h3>
+              <h5 class="light grey-text text-lighten-3">We've got you covered.</h5>
+            </div>
+          </li>
+          <li>
+            <img src="./assets/images/pinkpanther.jpeg"> <!-- random image -->
+            <div class="caption center-align">
+              <h3>Oh, and upgrade to WDYWTE Pro for only $13.37 /mo.!</h3>
+              <h5 class="light grey-text text-lighten-3">Need money to buy more food...Help us...</h5>
+            </div>
+          </li>
+        </ul>
+      </div> <!-- end slider -->
+    
+    <audio loop autoplay>
                 <source src="assets/audio/oggshine.ogg" type="audio/ogg">
                 <source src="assets/audio/Shine..mp3" type="audio/mpeg">
                 Your browser does not support the audio element.
@@ -26,6 +61,7 @@
         </div>
     </nav> <!-- end navbar -->
     <br>
+    
     <!-- first body -->
     <div class="section no-pad-bot" id="index-banner">
         <div class="container">
@@ -157,5 +193,13 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
     <script src="./assets/javascript/javascript.js"></script> 
+
+    <!-- slider transitions -->
+    <script>
+        $(document).ready(function(){
+        $('.slider').slider();
+      });
+    </script>
+
 </body>
 </html>
