@@ -93,69 +93,68 @@ var vegan = {
 var veganArray = [vegan.a1, vegan.b2, vegan.c3, vegan.d4, vegan.e5, vegan.f6];
 
 var asain = {
-    a1: ["sushi taro", ],
-    b2: ["chiko", ],
-    c3: ["korean signature bibimbap", ],
-    d4: ["Chiko", ],
-    e5: ["Tiger Fork", ],
-    f6: ["Doi Moi", ],
-    g7: ["Daikaya Izakaya", ],
-    h8: ["Oki Bowl", ],
-    i9: ["Toki Underground", ],
-    j10: ["Vietnamese", ],
-    k11: ["Maketto", ],
-    l12: ["Pho Viet Resturaunt", ],
-    m13: ["Merzi", ],
-    n14: ["Rasoi Indian Kitchen", ],
-    o15: ["Rasike West End"]
+    a1: ["sushi taro", "https://www.yelp.com/biz/sushi-taro-washington"],
+    b2: ["Chiko", "https://www.yelp.com/biz/chiko-washington"],
+    c3: ["korean signature bibimbap", "https://www.yelp.com/biz/korean-signature-bibimbap-washington"],
+    d4: ["Rasike West End", "https://www.yelp.com/biz/rasika-west-end-washington"],
+    e5: ["Tiger Fork", "https://www.yelp.com/biz/tiger-fork-washington"],
+    f6: ["Doi Moi", "https://www.yelp.com/biz/doi-moi-washington"],
+    g7: ["Daikaya Izakaya", "https://www.yelp.com/biz/daikaya-izakaya-washington-8"],
+    h8: ["Oki Bowl", "https://www.yelp.com/biz/oki-bowl-dc-washington"],
+    i9: ["Toki Underground", "https://www.yelp.com/biz/toki-underground-washington"],
+    j10: ["Thai and Pho Bistro", "https://www.yelp.com/biz/thai-and-pho-bistro-washington"],
+    k11: ["Maketto", "https://www.yelp.com/biz/maketto-washington-2"],
+    l12: ["Pho Viet Resturaunt", "https://www.yelp.com/biz/pho-viet-washington"],
+    m13: ["Merzi", "https://www.yelp.com/biz/merzi-washington"],
+    n14: ["Rasoi Indian Kitchen", "https://www.yelp.com/biz/rasoi-indian-kitchen-washington"]
 };
-var asainArray = [asain.a1, asain.b2, asain.c3, asain.d4, asain.e5, asain.f6, asain.g7, asain.h8, asain.i9, asain.j10, asain.k11, asain.l12, asain.m13, asain.n14, asain.o15];
+var asainArray = [asain.a1, asain.b2, asain.c3, asain.d4, asain.e5, asain.f6, asain.g7, asain.h8, asain.i9, asain.j10, asain.k11, asain.l12, asain.m13, asain.n14];
 
 var seafood = {
-    a1: ["Siren by RW", ],
-    b2: ["The Salt Line", ],
-    c3: ["Poke Papa", ],
-    d4: ["Ocean Prime", ],
-    e5: ["Joe’s Seafood, Prime Steak, & Stone Crab", ],
-    f6: ["McCormick & Schmick’s seafood & steaks", ]
+    a1: ["Siren by RW", "https://www.yelp.com/biz/siren-by-rw-washington"],
+    b2: ["The Salt Line", "https://www.yelp.com/biz/the-salt-line-washington"],
+    c3: ["Poke Papa", "https://www.yelp.com/biz/poke-papa-washington"],
+    d4: ["Ocean Prime", "https://www.yelp.com/biz/ocean-prime-washington"],
+    e5: ["Joe’s Seafood, Prime Steak, & Stone Crab", "https://www.yelp.com/biz/joes-seafood-prime-steak-and-stone-crab-washington"],
+    f6: ["McCormick & Schmick’s seafood & steaks", "https://www.yelp.com/biz/mccormick-and-schmicks-seafood-and-steaks-washington?osq=McCormick+%26+Schmick%27s+Seafood+%26+Steaks"]
 };
 var seafoodArray = [seafood.a1, seafood.b2, seafood.c3, seafood.d4, seafood.e5, seafood.f6];
 
 var vegitarian = {
-    a1: ["fruitive", ],
-    b2: ["Beefsteak", ],
-    c3: ["Equinox Restuarant", ],
-    d4: ["sweetgreen", ]
+    a1: ["fruitive", "https://www.yelp.com/biz/fruitive-washington-5"],
+    b2: ["Beefsteak", "https://www.yelp.com/biz/beefsteak-washington-3?osq=Beefsteak"],
+    c3: ["Equinox Restuarant", "https://www.yelp.com/biz/equinox-washington"],
+    d4: ["sweetgreen", "https://www.yelp.com/biz/sweetgreen-washington-3?osq=sweetgreen"]
 };
 var vegitarianArray = [vegitarian.a1, vegitarian.b2, vegitarian.c3, vegitarian.d4];
 
 var random = {
-    a1: ["Fare Well", ],
-    b2: ["Soupergirl", ],
-    c3: ["District Taco", ],
-    d4: ["El Centro DF", ],
-    e5: ["Tiger Fork", ],
-    f6: ["Oki Bowl", ],
-    g7: ["PJ Clarke’s DC", ],
-    h8: ["Mastro’s Steakhouse", ],
-    i9: ["Jeni’s Splendid Ice Creams", ],
-    j10: ["IcyCode Ice Cream Rolls", ],
-    k11: ["Astro Donuts", ],
-    l12: ["Tryst", ],
-    m13: ["Juan Valdez Cafe", ],
-    n14: ["RPM Italian", ],
-    o15: ["Roti Mediterranean Grill", ],
-    p16: ["Zaytihya", ],
-    q17: ["Café Mozart", ],
-    r18: ["Nerd’s & Nibblers", ],
-    s19: ["Taylor Gourmet", ],
-    t20: ["Wicked Waffle", ],
-    u21: ["Ocean Prime", ],
-    v22: ["McCormick & Schmick’s seafood & steaks", ],
-    w23: ["Comet Ping Pong", ],
-    x24: ["Ghibellina", ],
-    y25: ["Blue Frog Bagels", ],
-    z26: ["Equinox Restuarant", ]
+    a1: ["Fare Well", "https://www.yelp.com/biz/fare-well-washington-2"],
+    b2: ["Soupergirl", "https://www.yelp.com/biz/soupergirl-washington"],
+    c3: ["District Taco", "https://www.yelp.com/biz/district-taco-washington-6?osq=District+Taco"],
+    d4: ["El Centro DF", "https://www.yelp.com/biz/el-centro-df-arlington"],
+    e5: ["Tiger Fork", "https://www.yelp.com/biz/tiger-fork-washington"],
+    f6: ["Oki Bowl", "https://www.yelp.com/biz/oki-bowl-dc-washington"],
+    g7: ["PJ Clarke’s DC", "https://www.yelp.com/biz/p-j-clarkes-washington?osq=PJ+clark%27s+dc"],
+    h8: ["Mastro’s Steakhouse", "https://www.yelp.com/biz/mastros-steakhouse-washington"],
+    i9: ["Jeni’s Splendid Ice Creams", "https://www.yelp.com/biz/jenis-splendid-ice-creams-washington"],
+    j10: ["IcyCode Ice Cream Rolls", "https://www.yelp.com/biz/icycode-ice-cream-rolls-washington-4"],
+    k11: ["Astro Donuts", "https://www.yelp.com/biz/astro-doughnuts-and-fried-chicken-washington"],
+    l12: ["Tryst", "https://www.yelp.com/biz/tryst-washington"],
+    m13: ["Juan Valdez Cafe", "https://www.yelp.com/biz/juan-valdez-cafe-washington"],
+    n14: ["RPM Italian", "https://www.yelp.com/biz/rpm-italian-washington-4"],
+    o15: ["Roti Modern Mediterranean Grill", "https://www.yelp.com/biz/roti-modern-mediterranean-washington?osq=Roti+Mediterranean+Grill"],
+    p16: ["Zaytihya", "https://www.yelp.com/biz/zaytinya-washington"],
+    q17: ["Café Mozart", "https://www.yelp.com/biz/cafe-mozart-washington"],
+    r18: ["Nerd’s & Nibblers", "https://www.yelp.com/biz/nerds-and-nibblers-washington"],
+    s19: ["Taylor Gourmet", "https://www.yelp.com/biz/taylor-gourmet-washington-2?osq=Taylor+Gourmet"],
+    t20: ["Wicked Waffle", "https://www.yelp.com/biz/wicked-waffle-washington"],
+    u21: ["Ocean Prime", "https://www.yelp.com/biz/ocean-prime-washington"],
+    v22: ["McCormick & Schmick’s seafood & steaks", "https://www.yelp.com/biz/mccormick-and-schmicks-seafood-and-steaks-washington?osq=McCormick+%26+Schmick%27s+Seafood+%26+Steaks"],
+    w23: ["Comet Ping Pong", "https://www.yelp.com/biz/comet-ping-pong-washington"],
+    x24: ["Ghibellina", "https://www.yelp.com/biz/ghibellina-washington"],
+    y25: ["The Riggsby", "https://www.yelp.com/biz/the-riggsby-washington?osq=blue+frog+bagels"],
+    z26: ["Equinox Restuarant", "https://www.yelp.com/biz/equinox-washington"]
 };
 var randomArray = [random.a1, random.b2, random.c3, random.d4, random.e5, random.f6, random.g7, random.h8, random.i9, random.j10, random.k11, random.l12, random.m13, random.n14, random.o15, random.p16, random.q17, random.r18, random.s19, random.t20, random.u21, random.v22, random.w23, random.x24, random.y25, random.z26];
 
