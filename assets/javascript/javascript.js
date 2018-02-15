@@ -1,52 +1,52 @@
 
 
 var pizza = {
-    a1: ["Comet Ping Pong", "http://www.google.com/"],
-    b2: ["Ghibellina", "http://www.google.com/"],
-    c3: ["2Amys", "http://www.google.com/" ],
-    d4: ["Breakfast", "http://www.google.com/" ],
-    e5: ["Blue Frog Bagels", "http://www.google.com/"],
-    f6: ["matchbox", "http://www.google.com/"]
+    a1: ["Comet Ping Pong", "https://www.yelp.com/biz/comet-ping-pong-washington"],
+    b2: ["Ghibellina", "https://www.yelp.com/biz/ghibellina-washington"],
+    c3: ["2Amys", "https://www.yelp.com/biz/2-amys-neapolitan-pizzeria-washington" ],
+    d4: ["District of Pi", "https://www.yelp.com/biz/district-of-pi-washington?osq=pizza" ],
+    e5: ["Pizzeria Paradiso", "https://www.yelp.com/biz/pizzeria-paradiso-washington-4?osq=pizza"],
+    f6: ["matchbox", "https://www.yelp.com/biz/matchbox-chinatown-washington"]
 };
 var pizzaArray = [pizza.a1, pizza.b2, pizza.c3, pizza.d4, pizza.e5, pizza.f6];
 
 var subs = {
-    a1: ["Bub and Pops", ],
-    b2: ["Taylor Gourmet", ],
-    c3: ["Brown Bag", ],
-    d4: ["The Best Sandwich Place", ], 
-    e5: ["Wicked Waffle", ]
+    a1: ["Bub and Pops", "https://www.yelp.com/search?find_desc=bub+and+pops&find_loc=Washington%2C+DC&ns=1"],
+    b2: ["Taylor Gourmet", "https://www.yelp.com/biz/taylor-gourmet-washington-2?osq=Taylor+Gourmet"],
+    c3: ["Stachowski’s Market", "https://www.yelp.com/biz/stachowskis-market-washington?osq=sandwiches"],
+    d4: ["The Best Sandwich Place", "https://www.yelp.com/biz/the-best-sandwich-place-washington-4"], 
+    e5: ["Wicked Waffle", "https://www.yelp.com/biz/wicked-waffle-washington"]
 };
 var subsArray = [subs.a1, subs.b2, subs.c3, subs.d4, subs.e5];
 
 var variety = {
-    a1: ["Chopt Creative Salad Co", ],
-    b2: ["Roti Mediterranean Grill", ],
-    c3: ["Protein Bar", ],    
-    d4: ["Café Mozart", ],
-    e5: ["Brasserre Beck", ],
-    f6: ["Finn & Porter Restaurant", ],
-    g7: ["Maddy’s Taproom", ],
-    h8: ["Nerd’s & Nibblers", ],
-    i9: ["Zaytihya", ],
+    a1: ["Chopt Creative Salad Co", "https://www.yelp.com/biz/chopt-creative-salad-co-washington-3?osq=Chopt+Creative+Salad+Co."],
+    b2: ["Roti Mediterranean Grill", "https://www.yelp.com/biz/roti-modern-mediterranean-washington?osq=Roti+Modern+Mediterranean"],
+    c3: ["Protein Bar", "https://www.yelp.com/biz/protein-bar-washington?osq=protein+bar"],    
+    d4: ["Café Mozart", "https://www.yelp.com/biz/cafe-mozart-washington"],
+    e5: ["Brasserre Beck", "https://www.yelp.com/biz/brasserie-beck-washington-3"],
+    f6: ["Ben's Chili Bowl", "https://www.yelp.com/biz/bens-chili-bowl-washington"],
+    g7: ["Maddy’s Taproom", "https://www.yelp.com/biz/maddys-taproom-washington"],
+    h8: ["Nerd’s & Nibblers", "https://www.yelp.com/biz/nerds-and-nibblers-washington"],
+    i9: ["Zaytihya", "https://www.yelp.com/biz/zaytinya-washington"],
 };
 var varietyArray = [variety.a1, variety.b2, variety.c3, variety.d4, variety.e5, variety.f6, variety.g7, variety.h8, variety.i9];
 
 var italian = {
-    a1: ["Sfoglina", ],
-    b2: ["RPM Italian", ],
-    c3: ["Filomena Ristorante", ],
-    d4: ["Catch 15 Italian Kitchen + Oyster Bar", ]
+    a1: ["Sfoglina", "https://www.yelp.com/biz/sfoglina-washington"],
+    b2: ["RPM Italian", "https://www.yelp.com/biz/rpm-italian-washington-4"],
+    c3: ["Filomena Ristorante", "https://www.yelp.com/biz/filomena-ristorante-washington"],
+    d4: ["Catch 15 Italian Kitchen + Oyster Bar", "https://www.yelp.com/biz/catch-15-washington-4"]
 };
 var italianArray = [italian.a1, italian.b2, italian.c3, italian.d4];
 
 var mexican = {
-    a1: ["Taco Bamba", ],
-    b2: ["District Taco", ],
-    c3: ["El Centro DF", ],
-    d4: ["Taberna del Alabardero DC", ],
-    e5: ["Fogo Chao", ],
-    f6: ["Del Campo", ]
+    a1: ["Taco Bamba", "https://www.yelp.com/biz/taco-bamba-washington?osq=taco+bamba"],
+    b2: ["District Taco", "https://www.yelp.com/biz/district-taco-washington-6?osq=District+Taco"],
+    c3: ["El Centro DF", "https://www.yelp.com/biz/el-centro-df-14th-st-washington"],
+    d4: ["Taberna del Alabardero DC", "https://www.yelp.com/biz/taberna-del-alabardero-washington?osq=Taberna+del+Alabardero+DC"],
+    e5: ["Fogo Chao", "https://www.yelp.com/biz/fogo-de-ch%C3%A3o-brazilian-steakhouse-washington-5"],
+    f6: ["Del Campo", "https://www.yelp.com/biz/del-campo-washington"]
 };
 var mexicanArray = [mexican.a1, mexican.b2, mexican.c3, mexican.d4, mexican.e5, mexican.f6];
 
