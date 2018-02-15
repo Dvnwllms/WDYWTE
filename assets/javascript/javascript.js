@@ -166,77 +166,103 @@ var genSelected;
 $("#pizzaBtn").on("click", function(){
     genNum = Math.floor(Math.random() * pizzaArray.length);
     genSelected = pizzaArray[genNum];
+    $('.modal').modal();
+    $('#modal1').modal('open');
     $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#dessertBtn").on("click", function(){
     genNum = Math.floor(Math.random() * dessertArray.length);
     genSelected = dessertArray[genNum];
+    $('.modal').modal();
+    $('#modal1').modal('open');
     $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#varietyBtn").on("click", function(){
     genNum = Math.floor(Math.random() * varietyArray.length);
     genSelected = varietyArray[genNum];
+    $('.modal').modal();
+    $('#modal1').modal('open');
     $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#subsBtn").on("click", function(){
     genNum = Math.floor(Math.random() * subsArray.length);
     genSelected = subsArray[genNum];
+    $('.modal').modal();
+    $('#modal1').modal('open');
     $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#italianBtn").on("click", function(){
     genNum = Math.floor(Math.random() * italianArray.length);
     genSelected = italianArray[genNum];
+    $('.modal').modal();
+    $('#modal1').modal('open');
     $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#mexicanBtn").on("click", function(){
     genNum = Math.floor(Math.random() * mexicanArray.length);
     genSelected = mexicanArray[genNum];
+    $('.modal').modal();
+    $('#modal1').modal('open');
     $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#americanBtn").on("click", function(){
     genNum = Math.floor(Math.random() * americanArray.length);
     genSelected = americanArray[genNum];
+    $('.modal').modal();
+    $('#modal1').modal('open');
     $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#coffeeBtn").on("click", function(){
     genNum = Math.floor(Math.random() * coffeeArray.length);
     genSelected = coffeeArray[genNum];
+    $('.modal').modal();
+    $('#modal1').modal('open');
     $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#veganBtn").on("click", function(){
     genNum = Math.floor(Math.random() * veganArray.length);
     genSelected = veganArray[genNum];
+    $('.modal').modal();
+    $('#modal1').modal('open');
     $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#asainBtn").on("click", function(){
     genNum = Math.floor(Math.random() * asainArray.length);
     genSelected = asainArray[genNum];
+    $('.modal').modal();
+    $('#modal1').modal('open');
     $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#seafoodBtn").on("click", function(){
     genNum = Math.floor(Math.random() * seafoodArray.length);
     genSelected = seafoodArray[genNum];
+    $('.modal').modal();
+    $('#modal1').modal('open');
     $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#vegitarianBtn").on("click", function(){
     genNum = Math.floor(Math.random() * vegitarianArray.length);
     genSelected = vegitarianArray[genNum];
+    $('.modal').modal();
+    $('#modal1').modal('open');
     $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#randomBtn").on("click", function(){
     genNum = Math.floor(Math.random() * randomArray.length);
     genSelected = randomArray[genNum];
+    $('.modal').modal();
+    $('#modal1').modal('open');
     $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
