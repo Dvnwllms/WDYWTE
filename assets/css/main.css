@@ -6,7 +6,6 @@ body {
     font-family: 'Bilbo Swash Caps', cursive;
 }
 .datlogo {
-    height: 250px;
-    width: 400px;
-    margin-top: -50px;
+   height: 75%;
+   width: 75%;
 }

@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/wickedcss.min.css">
     <link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">         
@@ -21,7 +22,7 @@
     <!-- navbar -->
     <nav class="transparent z-depth-0" role="navigation">
         <div class="nav-wrapper container">
-            <a id="logo-container" href="index.html" class="brand-logo orange-text lighten-2"><img src="assets/images/logo.jpg" class="datlogo"></a>
+            <a id="logo-container" href="index.html" class="brand-logo orange-text lighten-2"><img src="assets/images/logo.jpg" class="pulse datlogo"></a>
         </div>
     </nav> <!-- end navbar -->
     <!-- first body -->
@@ -33,7 +34,7 @@
                 <h5 class="header col s12 light">Not sure what you want? Let us choose.</h5>
             </div>
             <div class="row center">
-                <a id="idkBtn" class="orange btn-large waves-effect waves-light"><i class="material-icons left">priority_high
+                <a id="randomBtn" class="orange btn-large waves-effect waves-light"><i class="material-icons left">priority_high
                     </i>IDGAF</a>
             </div>
         </div>
@@ -46,13 +47,13 @@
             <div class="row center"> <!-- first row -->
                 <div class="col s12 m4"> <!-- bttn -->
                     <div class="icon-block">
-                            <a id="chineseBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">restaurant_menu</i>Chinese</a>
+                            <a id="pizzaBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">restaurant_menu</i>Pizza</a>
                     </div>
                 </div>
                 <div class="col s12 m4"> <!-- bttn -->
                     <div class="icon-block">
-                        <a id="indianBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">whatshot
-                            </i>Indian</a>
+                        <a id="asainBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">whatshot
+                            </i>Asian</a>
                     </div>
                 </div>
                 <div class="col s12 m4"> <!-- bttn -->
@@ -65,24 +66,65 @@
             <div class="row center"> <!-- second row -->
                     <div class="col s12 m4"> <!-- bttn -->
                         <div class="icon-block">
-                            <a id="healthyBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">sentiment_neutral
-                                </i>Healthy</a>
+                            <a id="seafoodBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">directions_boat
+                                </i>Seafood</a>
                         </div>
                     </div>
                     <div class="col s12 m4"> <!-- bttn -->
                         <div class="icon-block">
-                            <a id="sandwichesBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">dehaze
+                            <a id="subsBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">dehaze
                                 </i>Sandwiches</a>
                         </div>
                     </div>
                     <div class="col s12 m4"> <!-- bttn -->
                         <div class="icon-block">
-                            <a id="dessertBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">palette</i>Dessert</a>
+                            <a id="dessertBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">ac_unit</i>Dessert</a>
                         </div>
                 </div>
             </div> <!-- second row -->
+            <br><br>
+            <div class="row center"> <!-- third row -->
+                <div class="col s12 m4"> <!-- bttn -->
+                    <div class="icon-block">
+                        <a id="italianBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">favorite_border
+                            </i>Italian</a>
+                    </div>
+                </div>
+                <div class="col s12 m4"> <!-- bttn -->
+                    <div class="icon-block">
+                        <a id="mexicanBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">flash_on
+                            </i>Mexican</a>
+                    </div>
+                </div>
+                <div class="col s12 m4"> <!-- bttn -->
+                    <div class="icon-block">
+                        <a id="vegitarianBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">local_florist
+                        </i>Vegitarian</a>
+                    </div>
+            </div>
+        </div> <!-- third row -->
+        <br><br>
+        <div class="row center"> <!-- fourth row -->
+            <div class="col s12 m4"> <!-- bttn -->
+                <div class="icon-block">
+                    <a id="americanBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">location_on
+                        </i>American</a>
+                </div>
+            </div>
+            <div class="col s12 m4"> <!-- bttn -->
+                <div class="icon-block">
+                    <a id="varietyBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">explore
+                        </i>No Category</a>
+                </div>
+            </div>
+            <div class="col s12 m4"> <!-- bttn -->
+                <div class="icon-block">
+                    <a id="coffeeBtn" class="orange waves-effect waves-light btn"><i class="material-icons left">local_cafe</i>Coffee</a>
+                </div>
         </div>
-        <div id="printDiv"></div>
+    </div> <!-- fourth row -->
+    <br><br>
+        </div>
     </div> <!-- end page body -->
     <br><br><br>
     <!-- footer -->
@@ -101,6 +143,15 @@
                 </div>
             </div>
           </footer> <!-- end footer -->
+          <!-- modal -->
+          <div id="modal1" class="modal">
+            <div class="modal-content center">
+              <h5 id="printDiv"></h5>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+            </div>
+          </div>
     <!-- javascript -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
