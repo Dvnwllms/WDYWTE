@@ -1,3 +1,11 @@
 body {
     background-image: url("assets/images/pexels-photo-670705.jpeg");
 }
+.bigthing {
+    color: orange;
+    font-family: 'Bilbo Swash Caps', cursive;
+}
+.datlogo {
+   height: 75%;
+   width: 75%;
+}
