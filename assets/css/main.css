@@ -9,3 +9,9 @@ body {
    height: 75%;
    width: 75%;
 }
+.orange-text {
+    font-size: 100px;
+   position: relative;
+   top: 40px;
+   font-family: 'Righteous', cursive;
+}
