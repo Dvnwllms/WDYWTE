@@ -51,44 +51,44 @@ var mexican = {
 var mexicanArray = [mexican.a1, mexican.b2, mexican.c3, mexican.d4, mexican.e5, mexican.f6];
 
 var american = {
-    a1: ["Chicken + Whiskey", ],
-    b2: ["Astro Donuts", ],
-    c3: ["Mason Dixie Biscuit Co", ],
-    d4: ["Shake Shack", ],
-    e5: ["PJ Clarke’s DC", ],
-    f6: ["Mastro’s Steakhouse", ],
-    g7: ["Ruth’s Chris Steak House", ],
-    h8: ["Claudia’s", ],
-    i9: ["Morton’s the Steakhouse", ],
-    j10: ["Bolt Burgers", ]
+    a1: ["Chicken + Whiskey", "https://www.yelp.com/biz/chicken-whiskey-washington-4?osq=chicken+and+whiskey"],
+    b2: ["Astro Donuts", "https://www.yelp.com/biz/astro-doughnuts-and-fried-chicken-washington"],
+    c3: ["Mason Dixie Biscuit Co", "https://www.yelp.com/biz/mason-dixie-biscuit-washington-3"],
+    d4: ["Shake Shack", "https://www.yelp.com/biz/shake-shack-washington-8?osq=Shake+Shack"],
+    e5: ["PJ Clarke’s DC", "https://www.yelp.com/biz/p-j-clarkes-washington?osq=Pj+Clark"],
+    f6: ["Mastro’s Steakhouse", "https://www.yelp.com/biz/mastros-steakhouse-washington"],
+    g7: ["Ruth’s Chris Steak House", "https://www.yelp.com/biz/ruths-chris-steak-house-washington?osq=Ruth%27s+Chris+Steak+House"],
+    h8: ["Claudia’s", "https://www.yelp.com/biz/claudias-steakhouse-washington"],
+    i9: ["Morton’s the Steakhouse", "https://www.yelp.com/biz/mortons-the-steakhouse-washington-3?osq=Morton%27s+The+Steakhouse"],
+    j10: ["Bolt Burgers", "https://www.yelp.com/biz/bolt-burgers-washington"]
 };
 var americanArray = [american.a1, american.b2, american.c3, american.d4, american.e5, american.f6, american.g7, american.h8, american.i9, american.j10];
 
 var coffee = {
-    a1: ["Tryst", ],
-    b2: ["Juan Valdez Cafe", ],
-    c3: ["WeWork", ],
-    d4: ["Point Chuad Café & Crepes", ]
+    a1: ["Tryst", "https://www.yelp.com/biz/tryst-washington"],
+    b2: ["Juan Valdez Cafe", "https://www.yelp.com/biz/juan-valdez-cafe-washington"],
+    c3: ["Slipstream", "https://www.yelp.com/biz/slipstream-washington"],
+    d4: ["Point Chuad Café & Crepes", "https://www.yelp.com/biz/point-chaud-caf%C3%A9-and-cr%C3%AApes-washington-3"]
 };
 var coffeeArray = [coffee.a1, coffee.b2, coffee.c3, coffee.d4];
 
 var dessert = {
-    a1: ["Dolcezza Gelato and Coffee", ],
-    b2: ["Jeni’s Splendid Ice Creams", ],
-    c3: ["IcyCode Ice Cream Rolls", ],
-    d4: ["Rita’s", ],
-    e5: ["Georgetown Cupcakes", ],
-    f6: ["Baked and Wired", ]
+    a1: ["Dolcezza Gelato and Coffee", "https://www.yelp.com/biz/dolcezza-gelato-factory-and-coffee-lab-washington"],
+    b2: ["Jeni’s Splendid Ice Creams", "https://www.yelp.com/biz/jenis-splendid-ice-creams-washington"],
+    c3: ["IcyCode Ice Cream Rolls", "https://www.yelp.com/biz/icycode-ice-cream-rolls-washington-4"],
+    d4: ["Danielle's Desserts", "https://www.yelp.com/biz/danielles-desserts-washington-2"],
+    e5: ["Georgetown Cupcakes", "https://www.yelp.com/search?ns=1&amp;find_desc=Georgetown+Cupcake&amp;choq=1&amp;find_loc=Washington%2C+DC"],
+    f6: ["Baked and Wired", "https://www.yelp.com/biz/baked-and-wired-washington"]
 };
 var dessertArray = [dessert.a1, dessert.b2, dessert.c3, dessert.d4, dessert.e5, dessert.f6];
 
 var vegan = {
-    a1: ["Nu Vegan Cafe", ],
-    b2: ["Shouk", ],
-    c3: ["Soupergirl", ],
-    d4: ["Woodlins Vegan Bistro", ],
-    e5: ["Elizabeth’s gone raw", ],
-    f6: ["Fare Well", ]
+    a1: ["NuVegan Cafe", "https://www.yelp.com/biz/nuvegan-caf%C3%A9-washington-2?osq=New+Vegan+Cafe"],
+    b2: ["Shouk", "https://www.yelp.com/biz/shouk-washington"],
+    c3: ["Soupergirl", "https://www.yelp.com/biz/soupergirl-washington"],
+    d4: ["Busboys and Poets", "https://www.yelp.com/biz/busboys-and-poets-5th-and-k-washington-2"],
+    e5: ["Elizabeth’s gone raw", "https://www.yelp.com/biz/elizabeths-gone-raw-washington"],
+    f6: ["Fare Well", "https://www.yelp.com/biz/fare-well-washington-2"]
 };
 var veganArray = [vegan.a1, vegan.b2, vegan.c3, vegan.d4, vegan.e5, vegan.f6];
 
