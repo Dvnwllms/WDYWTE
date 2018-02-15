@@ -1,5 +1,4 @@
 
-
 var pizza = {
     a1: ["Comet Ping Pong", "http://www.google.com/"],
     b2: ["Ghibellina", "http://www.google.com/"],
@@ -167,7 +166,7 @@ $("#pizzaBtn").on("click", function(){
     genSelected = pizzaArray[genNum];
     $('.modal').modal();
     $('#modal1').modal('open');
-    $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
+    $("#printDiv").html('<a class= "orange-text" href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#dessertBtn").on("click", function(){
@@ -175,7 +174,7 @@ $("#dessertBtn").on("click", function(){
     genSelected = dessertArray[genNum];
     $('.modal').modal();
     $('#modal1').modal('open');
-    $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
+    $("#printDiv").html('<a class= "orange-text" href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#varietyBtn").on("click", function(){
@@ -183,7 +182,7 @@ $("#varietyBtn").on("click", function(){
     genSelected = varietyArray[genNum];
     $('.modal').modal();
     $('#modal1').modal('open');
-    $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
+    $("#printDiv").html('<a class= "orange-text" href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#subsBtn").on("click", function(){
@@ -191,7 +190,7 @@ $("#subsBtn").on("click", function(){
     genSelected = subsArray[genNum];
     $('.modal').modal();
     $('#modal1').modal('open');
-    $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
+    $("#printDiv").html('<a class= "orange-text" href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#italianBtn").on("click", function(){
@@ -199,7 +198,7 @@ $("#italianBtn").on("click", function(){
     genSelected = italianArray[genNum];
     $('.modal').modal();
     $('#modal1').modal('open');
-    $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
+    $("#printDiv").html('<a class= "orange-text" href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#mexicanBtn").on("click", function(){
@@ -207,7 +206,7 @@ $("#mexicanBtn").on("click", function(){
     genSelected = mexicanArray[genNum];
     $('.modal').modal();
     $('#modal1').modal('open');
-    $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
+    $("#printDiv").html('<a class= "orange-text" href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#americanBtn").on("click", function(){
@@ -215,7 +214,7 @@ $("#americanBtn").on("click", function(){
     genSelected = americanArray[genNum];
     $('.modal').modal();
     $('#modal1').modal('open');
-    $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
+    $("#printDiv").html('<a class= "orange-text" href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#coffeeBtn").on("click", function(){
@@ -223,7 +222,7 @@ $("#coffeeBtn").on("click", function(){
     genSelected = coffeeArray[genNum];
     $('.modal').modal();
     $('#modal1').modal('open');
-    $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
+    $("#printDiv").html('<a class= "orange-text" href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#veganBtn").on("click", function(){
@@ -231,7 +230,7 @@ $("#veganBtn").on("click", function(){
     genSelected = veganArray[genNum];
     $('.modal').modal();
     $('#modal1').modal('open');
-    $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
+    $("#printDiv").html('<a class= "orange-text" href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#asainBtn").on("click", function(){
@@ -239,7 +238,7 @@ $("#asainBtn").on("click", function(){
     genSelected = asainArray[genNum];
     $('.modal').modal();
     $('#modal1').modal('open');
-    $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
+    $("#printDiv").html('<a class= "orange-text" href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#seafoodBtn").on("click", function(){
@@ -247,7 +246,7 @@ $("#seafoodBtn").on("click", function(){
     genSelected = seafoodArray[genNum];
     $('.modal').modal();
     $('#modal1').modal('open');
-    $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
+    $("#printDiv").html('<a class= "orange-text" href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#vegitarianBtn").on("click", function(){
@@ -255,7 +254,7 @@ $("#vegitarianBtn").on("click", function(){
     genSelected = vegitarianArray[genNum];
     $('.modal').modal();
     $('#modal1').modal('open');
-    $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
+    $("#printDiv").html('<a class= "orange-text" href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
 
 $("#randomBtn").on("click", function(){
@@ -263,5 +262,5 @@ $("#randomBtn").on("click", function(){
     genSelected = randomArray[genNum];
     $('.modal').modal();
     $('#modal1').modal('open');
-    $("#printDiv").html('<a href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
+    $("#printDiv").html('<a class= "orange-text" href="' + genSelected[1] + '">' + genSelected[0] + '</a>');
 });
