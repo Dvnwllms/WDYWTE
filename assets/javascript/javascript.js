@@ -22,14 +22,15 @@ var subsArray = [subs.a1, subs.b2, subs.c3, subs.d4, subs.e5];
 var variety = {
     a1: ["Chopt Creative Salad Co", ],
     b2: ["Roti Mediterranean Grill", ],
-    c3: ["Protein Bar", "Zaytihya", ],
+    c3: ["Protein Bar", ],    
     d4: ["Café Mozart", ],
     e5: ["Brasserre Beck", ],
     f6: ["Finn & Porter Restaurant", ],
     g7: ["Maddy’s Taproom", ],
-    h8: ["Nerd’s & Nibblers", ]
+    h8: ["Nerd’s & Nibblers", ],
+    i9: ["Zaytihya", ],
 };
-var varietyArray = [variety.a1, variety.b2, variety.c3, variety.d4, variety.e5, variety.f6, variety.g7, variety.h8];
+var varietyArray = [variety.a1, variety.b2, variety.c3, variety.d4, variety.e5, variety.f6, variety.g7, variety.h8, variety.i9];
 
 var italian = {
     a1: ["Sfoglina", ],
@@ -53,14 +54,15 @@ var american = {
     a1: ["Chicken + Whiskey", ],
     b2: ["Astro Donuts", ],
     c3: ["Mason Dixie Biscuit Co", ],
-    d4: ["Shake Shack", "Bolt Burgers", ],
+    d4: ["Shake Shack", ],
     e5: ["PJ Clarke’s DC", ],
     f6: ["Mastro’s Steakhouse", ],
     g7: ["Ruth’s Chris Steak House", ],
     h8: ["Claudia’s", ],
-    i9: ["Morton’s the Steakhouse", ]
+    i9: ["Morton’s the Steakhouse", ],
+    j10: ["Bolt Burgers", ]
 };
-var americanArray = [american.a1, american.b2, american.c3, american.d4, american.e5, american.f6, american.g7, american.h8, american.i9];
+var americanArray = [american.a1, american.b2, american.c3, american.d4, american.e5, american.f6, american.g7, american.h8, american.i9, american.j10];
 
 var coffee = {
     a1: ["Tryst", ],
@@ -82,11 +84,11 @@ var dessertArray = [dessert.a1, dessert.b2, dessert.c3, dessert.d4, dessert.e5, 
 
 var vegan = {
     a1: ["Nu Vegan Cafe", ],
-    b2: ["Shouk", "Fare Well", ],
+    b2: ["Shouk", ],
     c3: ["Soupergirl", ],
     d4: ["Woodlins Vegan Bistro", ],
     e5: ["Elizabeth’s gone raw", ],
-    f6: ["shouk", ]
+    f6: ["Fare Well", ]
 };
 var veganArray = [vegan.a1, vegan.b2, vegan.c3, vegan.d4, vegan.e5, vegan.f6];
 
